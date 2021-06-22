@@ -1,2 +1,1 @@
-# rails-movies-101
-Learning the basics for ruby-on-rails
+Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
