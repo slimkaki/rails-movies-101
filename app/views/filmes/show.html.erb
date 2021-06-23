@@ -1,3 +1,4 @@
+
 <h1>Sobre o filme:</h1>
 
 <b>Título:</b> <%= @filme.nome %>
@@ -6,5 +7,12 @@
 </br>
 <b>Descrição:</b> <%= @filme.descricao %>
 </br>
-<b>Data de Lançamento:</b> <%= @filme.data_lancamento %>
+<b>Data de Lançamento:</b>
+<% if @filme.data_lancamento %>
+    <%= @filme.data_lancamento.day %>/<%= @filme.data_lancamento.month%>/<%= @filme.data_lancamento.year %>
+<% else %>
+    unknown date
+<% end %>
 </br>
+<%= link_to 'editar', edit_filme_path(@filme), method: :update, class:"btn btn-secondary" %>
+<%= link_to 'deletar', filmes_path(@filme), method: :delete, data: { confirm: "Tem certeza que deseja apagar este filme?"}, class:"btn btn-danger" %>

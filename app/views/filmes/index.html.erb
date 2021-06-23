@@ -1,12 +1,18 @@
-<h1>Filmes disponíveis:</h1>
 
-<% @filmes.each do |filme| %>
+<h1>Filmes disponíveis:</h1>
+<ul>
+    <%= link_to 'Adicionar novo filme', new_filme_path, class:"btn btn-primary" %>
+    <% @filmes.each do |filme| %>
+</ul>
+<ul>
+    <li><b>Título:</b> "<%= filme.nome %>"
     <ul>
-        <li>Título: "<%= filme.nome %>"
-        <ul>
-            <li>Diretor: <%= filme.diretor %></li>
-            <li>Descrição: "<%= filme.descricao %>"</li>
-        </ul>
-        </li>
+        <li><b>Diretor:</b> <%= filme.diretor %></li>
     </ul>
+    </li>
+<ul>
+    <%= link_to 'editar', edit_filme_path(filme), method: :update, class:"btn btn-secondary" %>
+    <%= link_to 'deletar', filmes_path(filme), method: :delete, data: { confirm: "Tem certeza que deseja apagar este filme?"}, class:"btn btn-danger" %>
+</ul>
+</ul>
 <% end %>

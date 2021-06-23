@@ -22,6 +22,7 @@ class FilmesController < ApplicationController
     end
 
     def edit
+        
     end
 
     def update
@@ -42,6 +43,6 @@ class FilmesController < ApplicationController
     end
 
     def filme_params
-        params.require(:filme).permit(:nome, :diretor, :descricao)
+        params.require(:filme).permit(:nome, :diretor, :data_lancamento, :descricao)
     end
 end
