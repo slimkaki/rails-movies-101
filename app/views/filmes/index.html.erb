@@ -1,0 +1,12 @@
+<h1>Filmes disponíveis:</h1>
+
+<% @filmes.each do |filme| %>
+    <ul>
+        <li>Título: "<%= filme.nome %>"
+        <ul>
+            <li>Diretor: <%= filme.diretor %></li>
+            <li>Descrição: "<%= filme.descricao %>"</li>
+        </ul>
+        </li>
+    </ul>
+<% end %>
