@@ -7113,3 +7113,1343 @@ Processing by FilmesController#show as HTML
 Completed 200 OK in 21ms (Views: 16.7ms | ActiveRecord: 0.7ms | Allocations: 10652)
 
 
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 09:13:56 -0300
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (6.2ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 24.7ms | Allocations: 6530)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 155.2ms | Allocations: 43684)
+Completed 200 OK in 170ms (Views: 144.4ms | ActiveRecord: 15.0ms | Allocations: 47322)
+
+
+Started POST "/filmes/1/edit" for 127.0.0.1 at 2021-06-24 09:14:00 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/filmes/1/edit"):
+  
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 09:14:41 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.0ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1808)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 11666)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 1.0ms | Allocations: 12901)
+
+
+Started POST "/filmes/1/edit" for 127.0.0.1 at 2021-06-24 09:14:42 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/filmes/1/edit"):
+  
+Started GET "/filmes/" for 127.0.0.1 at 2021-06-24 09:16:02 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (0.9ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1810)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 11668)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.9ms | Allocations: 12904)
+
+
+Started POST "/filmes/1/edit" for 127.0.0.1 at 2021-06-24 09:16:04 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/filmes/1/edit"):
+  
+Started POST "/filmes/1/edit" for 127.0.0.1 at 2021-06-24 09:16:04 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/filmes/1/edit"):
+  
+Started POST "/filmes/1/edit" for 127.0.0.1 at 2021-06-24 09:16:04 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/filmes/1/edit"):
+  
+Started GET "/filmes/" for 127.0.0.1 at 2021-06-24 09:16:05 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (0.8ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1579)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 11201)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.8ms | Allocations: 11669)
+
+
+Started DELETE "/filmes.1" for 127.0.0.1 at 2021-06-24 09:16:07 -0300
+  
+ActionController::RoutingError (No route matches [DELETE] "/filmes.1"):
+  
+Started DELETE "/filmes.1" for 127.0.0.1 at 2021-06-24 09:17:44 -0300
+  
+ActionController::RoutingError (No route matches [DELETE] "/filmes.1"):
+  
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 09:17:47 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.0ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1573)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 11194)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 1.0ms | Allocations: 11653)
+
+
+Started GET "/filmes/new" for 127.0.0.1 at 2021-06-24 09:17:48 -0300
+Processing by FilmesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/new.html.erb within layouts/application
+  Rendered filmes/_form.html.erb (Duration: 54.0ms | Allocations: 22344)
+  Rendered filmes/new.html.erb within layouts/application (Duration: 55.6ms | Allocations: 22685)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 70.7ms | Allocations: 32313)
+Completed 200 OK in 72ms (Views: 71.2ms | ActiveRecord: 0.0ms | Allocations: 32934)
+
+
+Started POST "/filmes" for 127.0.0.1 at 2021-06-24 09:18:03 -0300
+Processing by FilmesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "filme"=>{"nome"=>"fsdakjlh", "diretor"=>"afsdglkj;", "data_lancamento(3i)"=>"24", "data_lancamento(2i)"=>"2", "data_lancamento(1i)"=>"2011", "descricao"=>"likjhbasjdfgjkvd"}, "commit"=>"Create Filme"}
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/filmes_controller.rb:17:in `create'
+  [1m[36mFilme Create (3.4ms)[0m  [1m[32mINSERT INTO "filmes" ("nome", "data_lancamento", "descricao", "created_at", "updated_at", "diretor") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["nome", "fsdakjlh"], ["data_lancamento", "2011-02-24"], ["descricao", "likjhbasjdfgjkvd"], ["created_at", "2021-06-24 12:18:03.978089"], ["updated_at", "2021-06-24 12:18:03.978089"], ["diretor", "afsdglkj;"]]
+  ↳ app/controllers/filmes_controller.rb:17:in `create'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/filmes_controller.rb:17:in `create'
+Redirected to http://127.0.0.1:3000/filmes.7
+Completed 302 Found in 13ms (ActiveRecord: 5.4ms | Allocations: 3408)
+
+
+Started GET "/filmes.7" for 127.0.0.1 at 2021-06-24 09:18:03 -0300
+Processing by FilmesController#index as */*
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.1ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1687)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 11043)
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 1.1ms | Allocations: 11646)
+
+
+Started GET "/filmes.7" for 127.0.0.1 at 2021-06-24 09:19:23 -0300
+Processing by FilmesController#index as */*
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (0.8ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1205)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 10776)
+Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 0.8ms | Allocations: 12040)
+
+
+Started GET "/filmes.7" for 127.0.0.1 at 2021-06-24 09:21:52 -0300
+Processing by FilmesController#index as */*
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.0ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 2357)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2426)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.0ms | Allocations: 3667)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"filmes", :format=>"7"}, missing required keys: [:id]
+Did you mean?  filme_url
+               filmes_url
+               filmes_path
+               new_filme_url):
+     8:     <li><b>Título:</b> "<%= filme.nome %>"
+     9:     <ul>
+    10:         <li><b>Diretor:</b> <%= filme.diretor %></li>
+    11:         <li><%= link_to 'Ver detalhes', filme_path, class:"btn btn-info" %></li>
+    12:     </ul>
+    13:     </li>
+    14: <ul>
+  
+app/views/filmes/index.html.erb:11
+app/views/filmes/index.html.erb:5
+Started GET "/filmes.7" for 127.0.0.1 at 2021-06-24 09:22:11 -0300
+Processing by FilmesController#index as */*
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (0.9ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2118)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2186)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.9ms | Allocations: 2613)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"filmes", :format=>"7"}, missing required keys: [:id]
+Did you mean?  filme_url
+               filmes_url
+               filmes_path
+               new_filme_url):
+     8:     <li><b>Título:</b> "<%= filme.nome %>"
+     9:     <ul>
+    10:         <li><b>Diretor:</b> <%= filme.diretor %></li>
+    11:         <li><%= link_to 'Ver detalhes', filme_path, class:"btn btn-info" %></li>
+    12:     </ul>
+    13:     </li>
+    14: <ul>
+  
+app/views/filmes/index.html.erb:11
+app/views/filmes/index.html.erb:5
+Started GET "/filmes.7" for 127.0.0.1 at 2021-06-24 09:22:13 -0300
+Processing by FilmesController#index as */*
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (0.9ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2118)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2186)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.9ms | Allocations: 2611)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"filmes", :format=>"7"}, missing required keys: [:id]
+Did you mean?  filme_url
+               filmes_url
+               filmes_path
+               new_filme_url):
+     8:     <li><b>Título:</b> "<%= filme.nome %>"
+     9:     <ul>
+    10:         <li><b>Diretor:</b> <%= filme.diretor %></li>
+    11:         <li><%= link_to 'Ver detalhes', filme_path, class:"btn btn-info" %></li>
+    12:     </ul>
+    13:     </li>
+    14: <ul>
+  
+app/views/filmes/index.html.erb:11
+app/views/filmes/index.html.erb:5
+Started GET "/filmes.7" for 127.0.0.1 at 2021-06-24 09:22:13 -0300
+Processing by FilmesController#index as */*
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (0.8ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2118)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2186)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.8ms | Allocations: 2611)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"filmes", :format=>"7"}, missing required keys: [:id]
+Did you mean?  filme_url
+               filmes_url
+               filmes_path
+               new_filme_url):
+     8:     <li><b>Título:</b> "<%= filme.nome %>"
+     9:     <ul>
+    10:         <li><b>Diretor:</b> <%= filme.diretor %></li>
+    11:         <li><%= link_to 'Ver detalhes', filme_path, class:"btn btn-info" %></li>
+    12:     </ul>
+    13:     </li>
+    14: <ul>
+  
+app/views/filmes/index.html.erb:11
+app/views/filmes/index.html.erb:5
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 09:22:26 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (0.9ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2114)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2182)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.9ms | Allocations: 2703)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"filmes"}, missing required keys: [:id]
+Did you mean?  filme_url
+               filmes_url
+               filmes_path
+               new_filme_url):
+     8:     <li><b>Título:</b> "<%= filme.nome %>"
+     9:     <ul>
+    10:         <li><b>Diretor:</b> <%= filme.diretor %></li>
+    11:         <li><%= link_to 'Ver detalhes', filme_path, class:"btn btn-info" %></li>
+    12:     </ul>
+    13:     </li>
+    14: <ul>
+  
+app/views/filmes/index.html.erb:11
+app/views/filmes/index.html.erb:5
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 09:22:46 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (0.9ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1402)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 11261)
+Completed 200 OK in 25ms (Views: 22.7ms | ActiveRecord: 0.9ms | Allocations: 12482)
+
+
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 09:22:49 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.8ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 427)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 10281)
+Completed 200 OK in 34ms (Views: 19.5ms | ActiveRecord: 1.5ms | Allocations: 14592)
+
+
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 09:23:06 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (0.8ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1406)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 10976)
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 0.8ms | Allocations: 12196)
+
+
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 09:23:12 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.8ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 413)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 10334)
+Completed 200 OK in 23ms (Views: 19.7ms | ActiveRecord: 0.8ms | Allocations: 11619)
+
+
+Started DELETE "/filmes.1" for 127.0.0.1 at 2021-06-24 09:23:17 -0300
+  
+ActionController::RoutingError (No route matches [DELETE] "/filmes.1"):
+  
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 09:23:19 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.7ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 167)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 9781)
+Completed 200 OK in 17ms (Views: 14.6ms | ActiveRecord: 0.7ms | Allocations: 10935)
+
+
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 09:23:19 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.4ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1656)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 11139)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 1.4ms | Allocations: 11600)
+
+
+Started GET "/filmes/2" for 127.0.0.1 at 2021-06-24 09:23:31 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mFilme Load (0.8ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 168)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 10082)
+Completed 200 OK in 23ms (Views: 19.5ms | ActiveRecord: 0.8ms | Allocations: 11241)
+
+
+Started GET "/filmes/6" for 127.0.0.1 at 2021-06-24 09:23:35 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFilme Load (0.9ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 151)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.6ms | Allocations: 10279)
+Completed 200 OK in 29ms (Views: 25.3ms | ActiveRecord: 0.9ms | Allocations: 11437)
+
+
+Started PATCH "/filmes/6/edit" for 127.0.0.1 at 2021-06-24 09:23:37 -0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/filmes/6/edit"):
+  
+Started GET "/filmes/6" for 127.0.0.1 at 2021-06-24 09:23:38 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFilme Load (0.7ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 151)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 9765)
+Completed 200 OK in 17ms (Views: 14.8ms | ActiveRecord: 0.7ms | Allocations: 10918)
+
+
+Started GET "/filmes/6" for 127.0.0.1 at 2021-06-24 09:23:57 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mFilme Load (0.6ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 9.8ms | Allocations: 4404)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 4473)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.6ms | Allocations: 6354)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `filme' for #<ActionView::Base:0x0000000000bf68>
+Did you mean?  @filme):
+    14:     unknown date
+    15: <% end %>
+    16: </br>
+    17: <%= link_to 'editar', edit_filme_path(filme), method: :patch, class:"btn btn-secondary" %>
+    18: <%= link_to 'deletar', filmes_path(filme), method: :delete, data: { confirm: "Tem certeza que deseja apagar este filme?"}, class:"btn btn-danger" %>
+  
+app/views/filmes/show.html.erb:17
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 09:25:44 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.4ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1406)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 11262)
+Completed 200 OK in 24ms (Views: 21.7ms | ActiveRecord: 1.4ms | Allocations: 12484)
+
+
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 09:25:45 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.6ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 412)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.7ms | Allocations: 10337)
+Completed 200 OK in 32ms (Views: 28.5ms | ActiveRecord: 0.6ms | Allocations: 11622)
+
+
+Started PATCH "/filmes/1/edit" for 127.0.0.1 at 2021-06-24 09:25:47 -0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/filmes/1/edit"):
+  
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 09:25:49 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.8ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 167)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 9585)
+Completed 200 OK in 20ms (Views: 17.3ms | ActiveRecord: 0.8ms | Allocations: 10740)
+
+
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 09:26:01 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.4ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1878)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 11651)
+Completed 200 OK in 26ms (Views: 23.3ms | ActiveRecord: 1.4ms | Allocations: 12875)
+
+
+Started GET "/filmes/new" for 127.0.0.1 at 2021-06-24 09:26:02 -0300
+Processing by FilmesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/new.html.erb within layouts/application
+  Rendered filmes/_form.html.erb (Duration: 12.1ms | Allocations: 9201)
+  Rendered filmes/new.html.erb within layouts/application (Duration: 13.0ms | Allocations: 9517)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.8ms | Allocations: 18741)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms | Allocations: 19330)
+
+
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 09:26:03 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.3ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1258)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 11096)
+Completed 200 OK in 26ms (Views: 23.7ms | ActiveRecord: 1.3ms | Allocations: 11586)
+
+
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 09:26:04 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.7ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 415)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 10329)
+Completed 200 OK in 25ms (Views: 21.6ms | ActiveRecord: 0.7ms | Allocations: 11614)
+
+
+Started PATCH "/filmes/1/edit" for 127.0.0.1 at 2021-06-24 09:26:05 -0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/filmes/1/edit"):
+  
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 09:28:04 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.8ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 471)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 10125)
+Completed 200 OK in 23ms (Views: 18.0ms | ActiveRecord: 0.8ms | Allocations: 12041)
+
+
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 09:28:04 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.0ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1386)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 10721)
+Completed 200 OK in 24ms (Views: 21.3ms | ActiveRecord: 1.0ms | Allocations: 11306)
+
+
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 09:28:06 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.7ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 190)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 10401)
+Completed 200 OK in 23ms (Views: 19.3ms | ActiveRecord: 0.7ms | Allocations: 11560)
+
+
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 09:28:08 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.1ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1203)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.2ms | Allocations: 11212)
+Completed 200 OK in 26ms (Views: 23.9ms | ActiveRecord: 1.1ms | Allocations: 11674)
+
+
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 09:28:14 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (1.0ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 190)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 10116)
+Completed 200 OK in 23ms (Views: 19.5ms | ActiveRecord: 1.0ms | Allocations: 11274)
+
+
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 09:28:17 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.3ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1203)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 11225)
+Completed 200 OK in 25ms (Views: 22.7ms | ActiveRecord: 1.3ms | Allocations: 11686)
+
+
+Started GET "/filmes/4" for 127.0.0.1 at 2021-06-24 09:28:19 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mFilme Load (1.0ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 190)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 10108)
+Completed 200 OK in 26ms (Views: 21.5ms | ActiveRecord: 1.0ms | Allocations: 11267)
+
+
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 09:28:20 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.2ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1203)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.1ms | Allocations: 11345)
+Completed 200 OK in 27ms (Views: 24.5ms | ActiveRecord: 1.2ms | Allocations: 11807)
+
+
+Started GET "/filmes?pp=help" for 127.0.0.1 at 2021-06-24 09:28:35 -0300
+Processing by FilmesController#index as HTML
+  Parameters: {"pp"=>"help"}
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.0ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1203)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 11192)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 1.0ms | Allocations: 11654)
+
+
+Started GET "/filmes?pp=help" for 127.0.0.1 at 2021-06-24 09:28:35 -0300
+Processing by FilmesController#index as HTML
+  Parameters: {"pp"=>"help"}
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.0ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1203)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 10538)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 1.0ms | Allocations: 10996)
+
+
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 09:28:41 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.2ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1203)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 10538)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 1.2ms | Allocations: 10996)
+
+
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 09:29:13 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (1.1ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 190)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 9519)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 1.1ms | Allocations: 10678)
+
+
+Started DELETE "/filmes.1" for 127.0.0.1 at 2021-06-24 09:29:15 -0300
+  
+ActionController::RoutingError (No route matches [DELETE] "/filmes.1"):
+  
+Started PUT "/__web_console/repl_sessions/15a6d786c2e965b6ff8455ddb5247f9e" for 127.0.0.1 at 2021-06-24 09:29:24 -0300
+Started PUT "/__web_console/repl_sessions/15a6d786c2e965b6ff8455ddb5247f9e" for 127.0.0.1 at 2021-06-24 09:29:25 -0300
+Started PUT "/__web_console/repl_sessions/15a6d786c2e965b6ff8455ddb5247f9e" for 127.0.0.1 at 2021-06-24 09:29:27 -0300
+Started PUT "/__web_console/repl_sessions/15a6d786c2e965b6ff8455ddb5247f9e" for 127.0.0.1 at 2021-06-24 09:29:30 -0300
+Started PUT "/__web_console/repl_sessions/15a6d786c2e965b6ff8455ddb5247f9e" for 127.0.0.1 at 2021-06-24 09:29:35 -0300
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 09:29:38 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.9ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 190)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 9743)
+Completed 200 OK in 17ms (Views: 14.2ms | ActiveRecord: 0.9ms | Allocations: 10897)
+
+
+Started DELETE "/filmes.1" for 127.0.0.1 at 2021-06-24 09:29:44 -0300
+  
+ActionController::RoutingError (No route matches [DELETE] "/filmes.1"):
+  
+Started PUT "/__web_console/repl_sessions/14b61f4aba143c28d4518ad4a511c998" for 127.0.0.1 at 2021-06-24 09:29:47 -0300
+Started PUT "/__web_console/repl_sessions/14b61f4aba143c28d4518ad4a511c998" for 127.0.0.1 at 2021-06-24 09:29:49 -0300
+Started PUT "/__web_console/repl_sessions/14b61f4aba143c28d4518ad4a511c998" for 127.0.0.1 at 2021-06-24 09:30:05 -0300
+Started PUT "/__web_console/repl_sessions/14b61f4aba143c28d4518ad4a511c998" for 127.0.0.1 at 2021-06-24 09:30:08 -0300
+Started PUT "/__web_console/repl_sessions/14b61f4aba143c28d4518ad4a511c998" for 127.0.0.1 at 2021-06-24 09:30:09 -0300
+Started PUT "/__web_console/repl_sessions/14b61f4aba143c28d4518ad4a511c998" for 127.0.0.1 at 2021-06-24 09:30:13 -0300
+Started PUT "/__web_console/repl_sessions/14b61f4aba143c28d4518ad4a511c998" for 127.0.0.1 at 2021-06-24 09:30:17 -0300
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 09:30:27 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.7ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 190)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 9804)
+Completed 200 OK in 18ms (Views: 14.5ms | ActiveRecord: 0.7ms | Allocations: 10959)
+
+
+Started PATCH "/filmes/1/edit" for 127.0.0.1 at 2021-06-24 09:30:28 -0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/filmes/1/edit"):
+  
+Started PUT "/__web_console/repl_sessions/833ad7fb4a38317aa4d021588025bc0e" for 127.0.0.1 at 2021-06-24 09:30:30 -0300
+Started PUT "/__web_console/repl_sessions/833ad7fb4a38317aa4d021588025bc0e" for 127.0.0.1 at 2021-06-24 09:30:31 -0300
+Started PUT "/__web_console/repl_sessions/833ad7fb4a38317aa4d021588025bc0e" for 127.0.0.1 at 2021-06-24 09:30:35 -0300
+Started GET "/rails/info/routes?path=edit" for 127.0.0.1 at 2021-06-24 09:31:13 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"edit"}
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1701)
+
+
+Started GET "/rails/info/routes?path=edit_" for 127.0.0.1 at 2021-06-24 09:31:14 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"edit_"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 850)
+
+
+Started GET "/rails/info/routes?path=edit_filme" for 127.0.0.1 at 2021-06-24 09:31:15 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"edit_filme"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 849)
+
+
+Started GET "/rails/info/routes?path=edit_filme" for 127.0.0.1 at 2021-06-24 09:31:18 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"edit_filme"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 847)
+
+
+Started GET "/rails/info/routes?path=edi" for 127.0.0.1 at 2021-06-24 09:31:20 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"edi"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 941)
+
+
+Started GET "/rails/info/routes?path=edit" for 127.0.0.1 at 2021-06-24 09:31:21 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"edit"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 890)
+
+
+Started GET "/rails/info/routes?path=edit" for 127.0.0.1 at 2021-06-24 09:31:21 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"edit"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 888)
+
+
+Started GET "/rails/info/routes?path=delete" for 127.0.0.1 at 2021-06-24 09:31:36 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"delete"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 850)
+
+
+Started GET "/rails/info/routes?path=delete" for 127.0.0.1 at 2021-06-24 09:31:37 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"delete"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 847)
+
+
+Started GET "/rails/info/routes?path=destro" for 127.0.0.1 at 2021-06-24 09:31:44 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"destro"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 850)
+
+
+Started GET "/rails/info/routes?path=destroy" for 127.0.0.1 at 2021-06-24 09:31:44 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"destroy"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 849)
+
+
+Started GET "/rails/info/routes?path=destroy" for 127.0.0.1 at 2021-06-24 09:31:45 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"destroy"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 847)
+
+
+Started GET "/rails/info/routes?path=destroy" for 127.0.0.1 at 2021-06-24 09:31:46 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"destroy"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 847)
+
+
+Started PATCH "/filmes/1/edit" for 127.0.0.1 at 2021-06-24 09:52:02 -0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/filmes/1/edit"):
+  
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 09:52:04 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.8ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 469)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 10318)
+Completed 200 OK in 39ms (Views: 18.0ms | ActiveRecord: 10.8ms | Allocations: 15412)
+
+
+Started GET "/filmes/" for 127.0.0.1 at 2021-06-24 09:52:05 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.1ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1386)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 10721)
+Completed 200 OK in 21ms (Views: 18.4ms | ActiveRecord: 1.1ms | Allocations: 11307)
+
+
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 09:52:09 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.9ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 190)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 9989)
+Completed 200 OK in 24ms (Views: 20.4ms | ActiveRecord: 0.9ms | Allocations: 11148)
+
+
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 09:52:11 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.4ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1203)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.5ms | Allocations: 11123)
+Completed 200 OK in 27ms (Views: 24.6ms | ActiveRecord: 1.4ms | Allocations: 11585)
+
+
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 09:53:19 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.9ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 190)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.9ms | Allocations: 10140)
+Completed 200 OK in 26ms (Views: 22.5ms | ActiveRecord: 0.9ms | Allocations: 11298)
+
+
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 09:54:21 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.7ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 494)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 10058)
+Completed 200 OK in 22ms (Views: 18.2ms | ActiveRecord: 0.7ms | Allocations: 11976)
+
+
+Started PATCH "/filmes/1/edit" for 127.0.0.1 at 2021-06-24 09:54:22 -0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/filmes/1/edit"):
+  
+Started PATCH "/filmes/1/edit" for 127.0.0.1 at 2021-06-24 09:54:40 -0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/filmes/1/edit"):
+  
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 09:54:45 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (0.8ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1403)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 11259)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.8ms | Allocations: 12479)
+
+
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 09:54:46 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.7ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1364)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 1432)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.7ms | Allocations: 2677)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"filmes", :id=>nil}, missing required keys: [:id]):
+    14:     unknown date
+    15: <% end %>
+    16: </br>
+    17: <%= link_to 'editar',  edit_filme_path(@filmes), method: :patch, class:"btn btn-secondary" %>
+    18: <%= link_to 'deletar', filmes_path(@filmes), method: :delete, data: { confirm: "Tem certeza que deseja apagar este filme?"}, class:"btn btn-danger" %>
+  
+app/views/filmes/show.html.erb:17
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 09:55:00 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.7ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 469)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 10318)
+Completed 200 OK in 22ms (Views: 18.0ms | ActiveRecord: 0.7ms | Allocations: 12234)
+
+
+Started PATCH "/filmes/1/edit" for 127.0.0.1 at 2021-06-24 09:55:01 -0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/filmes/1/edit"):
+  
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 09:55:03 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.6ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 190)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 9804)
+Completed 200 OK in 18ms (Views: 15.1ms | ActiveRecord: 0.6ms | Allocations: 10960)
+
+
+Started DELETE "/filmes.1" for 127.0.0.1 at 2021-06-24 09:55:05 -0300
+  
+ActionController::RoutingError (No route matches [DELETE] "/filmes.1"):
+  
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 10:01:39 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (1.0ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 190)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 9804)
+Completed 200 OK in 35ms (Views: 16.9ms | ActiveRecord: 10.4ms | Allocations: 14136)
+
+
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 10:01:42 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (0.9ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1391)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 10964)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.9ms | Allocations: 11549)
+
+
+Started GET "/filmes/new" for 127.0.0.1 at 2021-06-24 10:05:15 -0300
+Processing by FilmesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/new.html.erb within layouts/application
+  Rendered filmes/_form.html.erb (Duration: 18.1ms | Allocations: 9200)
+  Rendered filmes/new.html.erb within layouts/application (Duration: 19.6ms | Allocations: 9531)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.9ms | Allocations: 19387)
+Completed 200 OK in 41ms (Views: 39.4ms | ActiveRecord: 0.0ms | Allocations: 19978)
+
+
+Started POST "/filmes" for 127.0.0.1 at 2021-06-24 10:05:29 -0300
+Processing by FilmesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "filme"=>{"nome"=>"teste", "diretor"=>"aaa", "data_lancamento(3i)"=>"15", "data_lancamento(2i)"=>"4", "data_lancamento(1i)"=>"1976", "descricao"=>"sadfafs"}, "commit"=>"Create Filme"}
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/filmes_controller.rb:17:in `create'
+  [1m[36mFilme Create (1.7ms)[0m  [1m[32mINSERT INTO "filmes" ("nome", "data_lancamento", "descricao", "created_at", "updated_at", "diretor") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["nome", "teste"], ["data_lancamento", "1976-04-15"], ["descricao", "sadfafs"], ["created_at", "2021-06-24 13:05:29.475847"], ["updated_at", "2021-06-24 13:05:29.475847"], ["diretor", "aaa"]]
+  ↳ app/controllers/filmes_controller.rb:17:in `create'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/filmes_controller.rb:17:in `create'
+Redirected to http://127.0.0.1:3000/filmes.8
+Completed 302 Found in 12ms (ActiveRecord: 4.5ms | Allocations: 2713)
+
+
+Started GET "/filmes.8" for 127.0.0.1 at 2021-06-24 10:05:29 -0300
+Processing by FilmesController#index as */*
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.2ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1246)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 10581)
+Completed 200 OK in 24ms (Views: 21.6ms | ActiveRecord: 1.2ms | Allocations: 11182)
+
+
+Started GET "/filmes/8" for 127.0.0.1 at 2021-06-24 10:05:32 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mFilme Load (1.4ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 188)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 10391)
+Completed 200 OK in 26ms (Views: 21.1ms | ActiveRecord: 1.4ms | Allocations: 11550)
+
+
+Started DELETE "/filmes.8" for 127.0.0.1 at 2021-06-24 10:05:36 -0300
+  
+ActionController::RoutingError (No route matches [DELETE] "/filmes.8"):
+  
+Started GET "/filmes/8" for 127.0.0.1 at 2021-06-24 10:05:39 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mFilme Load (0.7ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 188)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 9635)
+Completed 200 OK in 18ms (Views: 14.6ms | ActiveRecord: 0.7ms | Allocations: 10789)
+
+
+Started DELETE "/filmes.8" for 127.0.0.1 at 2021-06-24 10:05:45 -0300
+  
+ActionController::RoutingError (No route matches [DELETE] "/filmes.8"):
+  
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 10:07:37 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.2ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1447)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 11303)
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 1.2ms | Allocations: 12524)
+
+
+Started GET "/filmes/4" for 127.0.0.1 at 2021-06-24 10:07:39 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mFilme Load (1.0ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 429)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.1ms | Allocations: 10571)
+Completed 200 OK in 32ms (Views: 27.9ms | ActiveRecord: 1.0ms | Allocations: 11857)
+
+
+Started DELETE "/filmes/4" for 127.0.0.1 at 2021-06-24 10:07:42 -0300
+Processing by FilmesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"4"}
+  [1m[36mFilme Load (1.2ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/filmes_controller.rb:37:in `destroy'
+  [1m[36mFilme Destroy (0.8ms)[0m  [1m[31mDELETE FROM "filmes" WHERE "filmes"."id" = $1[0m  [["id", 4]]
+  ↳ app/controllers/filmes_controller.rb:37:in `destroy'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/filmes_controller.rb:37:in `destroy'
+Redirected to http://127.0.0.1:3000/filmes
+Completed 302 Found in 9ms (ActiveRecord: 4.3ms | Allocations: 2827)
+
+
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 10:07:42 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.0ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1203)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 10539)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 1.0ms | Allocations: 10998)
+
+
+Started GET "/filmes/5" for 127.0.0.1 at 2021-06-24 10:07:45 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mFilme Load (1.1ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 167)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 10078)
+Completed 200 OK in 27ms (Views: 22.1ms | ActiveRecord: 1.1ms | Allocations: 11236)
+
+
+Started PATCH "/filmes/5/edit" for 127.0.0.1 at 2021-06-24 10:07:47 -0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/filmes/5/edit"):
+  
+Started GET "/filmes/5" for 127.0.0.1 at 2021-06-24 10:08:04 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mFilme Load (0.7ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 167)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 9781)
+Completed 200 OK in 18ms (Views: 15.3ms | ActiveRecord: 0.7ms | Allocations: 10936)
+
+
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 10:08:06 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.4ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1203)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.7ms | Allocations: 11136)
+Completed 200 OK in 29ms (Views: 26.1ms | ActiveRecord: 1.4ms | Allocations: 11598)
+
+
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 10:09:58 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.8ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 169)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.4ms | Allocations: 10083)
+Completed 200 OK in 27ms (Views: 23.1ms | ActiveRecord: 0.8ms | Allocations: 11241)
+
+
+Started PATCH "/filmes/1/edit" for 127.0.0.1 at 2021-06-24 10:09:58 -0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/filmes/1/edit"):
+  
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 10:10:00 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.8ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 169)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 9783)
+Completed 200 OK in 19ms (Views: 15.6ms | ActiveRecord: 0.8ms | Allocations: 10938)
+
+
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 10:10:08 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.9ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 449)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 10012)
+Completed 200 OK in 43ms (Views: 18.9ms | ActiveRecord: 0.9ms | Allocations: 11930)
+
+
+Started PATCH "/filmes/1/edit" for 127.0.0.1 at 2021-06-24 10:10:09 -0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/filmes/1/edit"):
+  
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 10:10:33 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.8ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 169)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 9783)
+Completed 200 OK in 19ms (Views: 15.5ms | ActiveRecord: 0.8ms | Allocations: 10939)
+
+
+Started GET "/filmes" for 127.0.0.1 at 2021-06-24 10:10:34 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.1ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1384)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.8ms | Allocations: 11306)
+Completed 200 OK in 30ms (Views: 27.3ms | ActiveRecord: 1.1ms | Allocations: 11894)
+
+
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 10:10:38 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.8ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 169)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 10373)
+Completed 200 OK in 27ms (Views: 23.5ms | ActiveRecord: 0.8ms | Allocations: 11532)
+
+
+Started PATCH "/filmes/1/edit" for 127.0.0.1 at 2021-06-24 10:11:27 -0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/filmes/1/edit"):
+  
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 10:11:29 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.7ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 449)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 84.5ms | Allocations: 10298)
+Completed 200 OK in 90ms (Views: 86.4ms | ActiveRecord: 0.7ms | Allocations: 12214)
+
+
+Started PATCH "/filmes/1/edit" for 127.0.0.1 at 2021-06-24 10:11:45 -0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/filmes/1/edit"):
+  
+Started PATCH "/filmes/1/edit" for 127.0.0.1 at 2021-06-24 10:11:45 -0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/filmes/1/edit"):
+  
+Started GET "/filmes/" for 127.0.0.1 at 2021-06-24 10:13:20 -0300
+Processing by FilmesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/index.html.erb within layouts/application
+  [1m[36mFilme Load (1.1ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes"[0m
+  ↳ app/views/filmes/index.html.erb:5
+  Rendered filmes/index.html.erb within layouts/application (Duration: 22.8ms | Allocations: 5429)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.3ms | Allocations: 15073)
+Completed 200 OK in 45ms (Views: 29.4ms | ActiveRecord: 12.7ms | Allocations: 16423)
+
+
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 10:13:21 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.9ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:43:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 183)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.7ms | Allocations: 10151)
+Completed 200 OK in 34ms (Views: 28.8ms | ActiveRecord: 0.9ms | Allocations: 11440)
+
+
+Started PATCH "/filmes/1/edit" for 127.0.0.1 at 2021-06-24 10:13:24 -0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/filmes/1/edit"):
+  
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 10:13:32 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (1.0ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:43:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 169)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 9783)
+Completed 200 OK in 20ms (Views: 16.3ms | ActiveRecord: 1.0ms | Allocations: 10938)
+
+
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 10:13:42 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.7ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:43:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 169)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 9517)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.7ms | Allocations: 10672)
+
+
+Started PATCH "/filmes/1/edit" for 127.0.0.1 at 2021-06-24 10:13:43 -0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/filmes/1/edit"):
+  
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 10:13:46 -0300
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.9ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:43:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 169)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 9783)
+Completed 200 OK in 21ms (Views: 17.0ms | ActiveRecord: 0.9ms | Allocations: 10938)
+
+
+Started GET "/filmes/1" for 127.0.0.1 at 2021-06-24 10:14:04 -0300
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FilmesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mFilme Load (0.9ms)[0m  [1m[34mSELECT "filmes".* FROM "filmes" WHERE "filmes"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/filmes_controller.rb:42:in `set_filme'
+  Rendering layout layouts/application.html.erb
+  Rendering filmes/show.html.erb within layouts/application
+  Rendered filmes/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 757)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 96.7ms | Allocations: 37752)
+Completed 200 OK in 127ms (Views: 99.6ms | ActiveRecord: 8.5ms | Allocations: 47269)
+
+
+Started PATCH "/filmes/1/edit" for 127.0.0.1 at 2021-06-24 10:14:06 -0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/filmes/1/edit"):
+  
+Started PATCH "/filmes/1/edit" for 127.0.0.1 at 2021-06-24 10:14:06 -0300
+  
+ActionController::RoutingError (No route matches [PATCH] "/filmes/1/edit"):
+  
